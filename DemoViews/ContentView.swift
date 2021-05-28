@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+      VStack{
+      Text("Demo Views")
+       .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+       .bold()
             .padding()
+         Image("OGW")
+                   .resizable()
+                   .scaledToFit()
+      }
     }
 }
 

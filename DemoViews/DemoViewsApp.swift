@@ -11,7 +11,26 @@ import SwiftUI
 struct DemoViewsApp: App {
     var body: some Scene {
         WindowGroup {
+         TabView {
+           
             ContentView()
+            PickerView()
+            MorePickers()
+            SliderEtcView()
+            ButtonView()
+          //  MenuView()
+            DateView()
+          //  ToggleView()
+            ContentView()
+            
+            
         }
-    }
+         .tabViewStyle(PageTabViewStyle())
+         .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+       
+       
+         
+        }
+      
+  }
 }

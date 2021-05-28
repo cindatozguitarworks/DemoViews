@@ -11,6 +11,12 @@
 		57002FFB261CF99C00CC8EFB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57002FFA261CF99C00CC8EFB /* ContentView.swift */; };
 		57002FFD261CF99D00CC8EFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57002FFC261CF99D00CC8EFB /* Assets.xcassets */; };
 		57003000261CF99D00CC8EFB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57002FFF261CF99D00CC8EFB /* Preview Assets.xcassets */; };
+		57003009261D165100CC8EFB /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57003008261D165100CC8EFB /* PickerView.swift */; };
+		5700300D261E524600CC8EFB /* MorePickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5700300C261E524600CC8EFB /* MorePickers.swift */; };
+		576B28ED261E803700E5AE31 /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B28EC261E803700E5AE31 /* DateView.swift */; };
+		576B28F52620D97500E5AE31 /* SliderEtcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B28F42620D97500E5AE31 /* SliderEtcView.swift */; };
+		576B28FB262104D100E5AE31 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B28FA262104D100E5AE31 /* ButtonView.swift */; };
+		576B29042626658800E5AE31 /* OGW.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B29032626658800E5AE31 /* OGW.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		57002FFC261CF99D00CC8EFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57002FFF261CF99D00CC8EFB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57003001261CF99D00CC8EFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57003008261D165100CC8EFB /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		5700300C261E524600CC8EFB /* MorePickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorePickers.swift; sourceTree = "<group>"; };
+		576B28EC261E803700E5AE31 /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		576B28F42620D97500E5AE31 /* SliderEtcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderEtcView.swift; sourceTree = "<group>"; };
+		576B28FA262104D100E5AE31 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		576B29032626658800E5AE31 /* OGW.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OGW.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,14 @@
 			isa = PBXGroup;
 			children = (
 				57002FF8261CF99C00CC8EFB /* DemoViewsApp.swift */,
+				57003008261D165100CC8EFB /* PickerView.swift */,
+				5700300C261E524600CC8EFB /* MorePickers.swift */,
+				576B28F42620D97500E5AE31 /* SliderEtcView.swift */,
+				576B28FA262104D100E5AE31 /* ButtonView.swift */,
+				576B28EC261E803700E5AE31 /* DateView.swift */,
 				57002FFA261CF99C00CC8EFB /* ContentView.swift */,
 				57002FFC261CF99D00CC8EFB /* Assets.xcassets */,
+				576B29032626658800E5AE31 /* OGW.jpg */,
 				57003001261CF99D00CC8EFB /* Info.plist */,
 				57002FFE261CF99D00CC8EFB /* Preview Content */,
 			);
@@ -126,6 +144,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576B29042626658800E5AE31 /* OGW.jpg in Resources */,
 				57003000261CF99D00CC8EFB /* Preview Assets.xcassets in Resources */,
 				57002FFD261CF99D00CC8EFB /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576B28F52620D97500E5AE31 /* SliderEtcView.swift in Sources */,
+				576B28ED261E803700E5AE31 /* DateView.swift in Sources */,
+				5700300D261E524600CC8EFB /* MorePickers.swift in Sources */,
 				57002FFB261CF99C00CC8EFB /* ContentView.swift in Sources */,
 				57002FF9261CF99C00CC8EFB /* DemoViewsApp.swift in Sources */,
+				57003009261D165100CC8EFB /* PickerView.swift in Sources */,
+				576B28FB262104D100E5AE31 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
